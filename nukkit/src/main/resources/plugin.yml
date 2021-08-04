@@ -1,0 +1,5 @@
+name: PocketSectors-Nukkit
+main: pl.projectcode.pocketsectors.nukkit.NukkitSector
+version: 1.0
+author: xStrixU
+api: 1.5.0

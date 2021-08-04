@@ -1,0 +1,49 @@
+sectors:
+  spawn01:
+    x1: -250
+    z1: -250
+    x2: 250
+    z2: 250
+    type: "SPAWN"
+    world: world
+    address: "localhost:19132"
+  spawn02:
+    x1: -250
+    z1: -250
+    x2: 250
+    z2: 250
+    type: "SPAWN"
+    world: world
+    address: "localhost:19132"
+  north:
+    x1: 251
+    z1: -250
+    x2: 751
+    z2: 250
+    type: "SECTOR"
+    world: world
+    address: "localhost:19132"
+  south:
+    x1: -251
+    z1: -250
+    x2: -751
+    z2: 250
+    type: "SECTOR"
+    world: world
+    address: "localhost:19132"
+  east:
+    x1: 250
+    z1: 251
+    x2: -250
+    z2: 751
+    type: "SECTOR"
+    world: world
+    address: "localhost:19132"
+  west:
+    x1: 250
+    z1: -251
+    x2: -250
+    z2: -751
+    type: "SECTOR"
+    world: world
+    address: "localhost:19132"
