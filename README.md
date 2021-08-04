@@ -81,7 +81,7 @@ PacketChannel.GLOBAL; // pakiet zostanie wysłany do proxy i wszystkich sektoró
 Wysyłanie pakietu:
 ```java
 YourPacket packet = new YourPacket("wiadomosc!", 10);
-RedisManager.getInstance().publish(PacketChannel.GLOBAL, packet); // pakiet ExamplePacket zostanie wysłany do proxy i wszystkich sektorów
+RedisManager.getInstance().publish(PacketChannel.GLOBAL, packet); // pakiet YourPacket zostanie wysłany do proxy i wszystkich sektorów
 ```
 ### Odbieranie pakietu
 Aby odebrać pakiet, musimy stworzyć nasłuchiwacz (eng. ```listener```). Tworzy się go następująco:
